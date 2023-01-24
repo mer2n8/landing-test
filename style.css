@@ -4,10 +4,11 @@
 
 * { outline: 1px solid red; }
 
-img {
-    height:auto;
-    width:300px;
-    /* max-width:500px; */
+body {
+    font-family: Roboto, snas-serif;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
 }
 
 button {
@@ -16,14 +17,6 @@ button {
     padding: 8px 20px;
     background-color: #3882F6;
     color: #F9FAF8;
-    /* outline: 3px solid #F9FAF8; */
-}
-
-body {
-    font-family: Roboto, snas-serif;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-between; */
 }
 
 ul {
@@ -37,39 +30,41 @@ ul {
 a {
     text-decoration: none;
     padding: 12px;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
-.content1 {
-    display: flex;
-    flex-direction: row;
-    /* background-color: #1F2937; */
-}
+/* ---------head------------------- */
 
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center; /* this fixes logo, but why were links never an issue?*/
+    background-color: #1F2937;
 }
 
-.card {
-    padding: 12px;    
+.headtitle {
+    font-size: 24px;
+    color: #F9FAF8;
+    /* align-items: center; */
 }
 
 .right-links {
     padding: 12px;
 }
 
-.headtitle, .footer {
-    color: #F9FAF8;
+/* ---------cont1------------------ */
+
+.content1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
 }
 
-.headtitle {
-    font-size: 24px;
-    /* align-items: center; */
+.left1 {
+    max-width: 400px;
 }
-
-   
 
 #awesomesite {
     color: #F9FAF8;
@@ -77,36 +72,34 @@ a {
     font-weight: 900;
 }
 
-#awesomecontent, a {
+#awesomecontent {
     color: #E5E7EB;
     font-size: 18px;
 }
 
-.content1, .footer, .header {
-    background-color: #1F2937;
+img {
+    height:auto;
+    width:300px;
+    /* max-width:500px; */
 }
 
-.footer {
-    text-align: center;
-}
+/* --------cont2------------------- */
 
 #random {
     text-align: center;
 }
 
 
-
-#button2 {
-    outline: 2px solid #F9FAF8;
+.card {
+    padding: 12px;    
 }
 
-.content4 {
-    background-color: #3882F6;
-}
+
+/* ---------cont3------------------ */
 
 .content3 {
     background-color: #E5E7EB;
-
+    max-width: 800px;
 }
 
 #quotetext {
@@ -115,3 +108,32 @@ a {
     font-weight: lighter;
     color: #1F2937
 }
+
+/* ---------cont4------------------ */
+
+.content4 {
+    background-color: #3882F6;
+    color: #F9FAF8
+}
+
+#button2 {
+    outline: 2px solid #F9FAF8;
+}
+
+/* ---------foot------------------- */
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+
+
+
+
+
+
+
+
+
