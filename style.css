@@ -1,1 +1,117 @@
 /* style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* { outline: 1px solid red; }
+
+img {
+    height:auto;
+    width:300px;
+    /* max-width:500px; */
+}
+
+button {
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 8px 20px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    /* outline: 3px solid #F9FAF8; */
+}
+
+body {
+    font-family: Roboto, snas-serif;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    /* padding: 12px; */
+}
+
+a {
+    text-decoration: none;
+    padding: 12px;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: row;
+    /* background-color: #1F2937; */
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; /* this fixes logo, but why were links never an issue?*/
+}
+
+.card {
+    padding: 12px;    
+}
+
+.right-links {
+    padding: 12px;
+}
+
+.headtitle, .footer {
+    color: #F9FAF8;
+}
+
+.headtitle {
+    font-size: 24px;
+    /* align-items: center; */
+}
+
+   
+
+#awesomesite {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#awesomecontent, a {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.content1, .footer, .header {
+    background-color: #1F2937;
+}
+
+.footer {
+    text-align: center;
+}
+
+#random {
+    text-align: center;
+}
+
+
+
+#button2 {
+    outline: 2px solid #F9FAF8;
+}
+
+.content4 {
+    background-color: #3882F6;
+}
+
+.content3 {
+    background-color: #E5E7EB;
+
+}
+
+#quotetext {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937
+}
