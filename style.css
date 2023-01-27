@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-* { outline: 1px solid red; }
+/* * { outline: 1px solid red; } */
 
 body {
     font-family: Roboto, snas-serif;
@@ -70,6 +70,7 @@ a {
 
 #srclink {
     padding: 0px;
+    text-decoration: underline;
 }
 
 /* ---------cont1------------------ */
