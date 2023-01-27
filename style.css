@@ -2,13 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* * { outline: 1px solid red; } */
+* { outline: 1px solid red; }
 
 body {
     font-family: Roboto, snas-serif;
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
+    margin: 0px;
 }
 
 button {
@@ -59,11 +60,16 @@ a {
 .headtitle {
     font-size: 24px;
     color: #F9FAF8;
+    margin: 12px;
     /* align-items: center; */
 }
 
 .right-links {
     padding: 12px;
+}
+
+#srclink {
+    padding: 0px;
 }
 
 /* ---------cont1------------------ */
@@ -184,6 +190,7 @@ a {
     justify-content: space-between;
     margin: 100px;
     flex-grow: 1;
+    border-radius: 4px;
 }
 
 #lefttext4 {
